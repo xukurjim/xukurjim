@@ -1,0 +1,162 @@
+.site-data, /*  */
+#card-info-btn, /*  */
+.item-headline, /*  */
+.announcement_content, /*  */
+.webinfo-item, /*  */
+.article-title,  /*  */
+#article-container, /* تىما مەزمۇنى */
+#post-info .post-title /* تىما نامى */
+{
+    direction: rtl !important;
+}
+
+#card-info-btn span {
+    /*  */
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+}
+
+.item-headline span {
+    margin-left: 0 !important;
+    margin-right: 6px !important;
+    vertical-align: 2px;
+}
+
+.webinfo-item div:first-child {
+    /*  */
+    padding-right: 0 !important;
+    padding-left: 20px !important;
+}
+
+.aside-list>.aside-list-item .content {
+    /*  */
+    direction: rtl !important;
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+}
+.recent-post-item >.recent-post-info > .article-meta-wrap{
+    /* ياما يوللانغان ۋاقتى */
+    direction: rtl !important;
+}
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap i {
+    margin: 0px 0px 0 4px !important;
+}
+.article-meta-wrap .article-meta-label {
+    padding-left: 4px !important;
+    vertical-align: 1px;
+}
+
+.recent-post-item>.recent-post-info>.content {
+    /* تىما ئاستى قىسقىچە مەزمۇنى */
+    direction: rtl !important;
+    text-align: justify;
+}
+#aside-content #card-toc .toc-content li{
+    /* يازما بەت مۇندەرىجە قىسمى */
+    direction: rtl !important;
+    text-align: right !important;
+}
+#aside-content #card-toc .toc-percentage{
+    float: left !important;
+}
+#aside-content #card-toc .toc-content > * > .toc-item > .toc-child {
+    /* يازما بەت مۇندەرىجە سىزىق */
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    border-left: none !important;
+    margin-right: 10px !important;
+    padding-right: 10px !important;
+    border-right: 1px solid var(--dark-grey) !important;
+}
+
+#article-container figure.highlight{
+    /* تىما ئارسىدىكى كود */
+    direction: ltr !important;
+}
+
+
+
+#post .post-copyright{
+    /* ئاپتۇر ۋە تارقىتىش ئىجازىتى قىسمى  */
+    direction: rtl !important;
+}
+#post .post-copyright:before {
+    right: 0 !important;
+    left: 12px !important;
+}
+.post-copyright-info {
+    padding-left: 0 !important;
+    padding-right: 6px !important;
+}
+
+#post-info #post-meta {
+    direction: rtl;
+}
+#post-info #post-meta .post-meta-icon {
+    margin-left: 4px !important;
+}
+#post-info #post-meta .post-meta-label {
+    margin-left: 4px !important;
+}
+
+#post-comment .comment-head{
+    /* ئىنكاس قىسمى */
+    direction: rtl !important;
+}
+
+time{
+    display: inline-block !important;
+}
+
+#menus{
+    direction: rtl;
+}
+
+#site-page span{
+    vertical-align: 2px;
+}
+
+#archive{
+    direction: rtl;
+}
+
+.article-sort-title{
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.article-sort-title:before{
+    right: -9px;
+    left: unset;
+}
+
+.article-sort-title:after {
+    right: 0px;
+    left: unset;
+    width: 2px;
+}
+
+.article-sort {
+    padding-right: 20px;
+    margin-right: 10px;
+    border-right: 2px solid #aadafa;
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+}
+
+.article-sort-item:before{
+    right: calc(-10px - 16px);
+    left: unset;
+}
+
+.article-sort-item-title:hover {
+    transform: translateX(-10px);
+}
+
+.article-sort-item-time time {
+    padding-left: 0;
+    padding-right: 6px;
+}
