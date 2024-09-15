@@ -5,7 +5,12 @@
 .webinfo-item, /*  */
 .article-title,  /*  */
 #article-container, /* تىما مەزمۇنى */
-#post-info .post-title /* تىما نامى */
+#post-info .post-title, /* تىما نامى */
+.card-tag-cloud,
+.aside-list,
+.card-category-list,
+.card-archive-list,
+#footer
 {
     direction: rtl !important;
 }
@@ -39,7 +44,7 @@
     direction: rtl !important;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap i {
-    margin: 0px 0px 0 4px !important;
+    margin: 0 4px;
 }
 .article-meta-wrap .article-meta-label {
     padding-left: 4px !important;
@@ -159,4 +164,13 @@ time{
 .article-sort-item-time time {
     padding-left: 0;
     padding-right: 6px;
+}
+
+
+.fa-angle-right{
+    transform: rotateY(180deg);
+}
+
+#aside-content .card-categories .card-category-list.child {
+    padding: 0 16px 0 0;
 }
