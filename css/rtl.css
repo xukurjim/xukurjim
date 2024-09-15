@@ -10,6 +10,7 @@
 .aside-list,
 .card-category-list,
 .card-archive-list,
+.tag_share,
 #footer
 {
     direction: rtl !important;
@@ -86,7 +87,7 @@
     direction: rtl !important;
 }
 #post .post-copyright:before {
-    right: 0 !important;
+    right: unset;
     left: 12px !important;
 }
 .post-copyright-info {
@@ -121,7 +122,9 @@ time{
     vertical-align: 2px;
 }
 
-#archive{
+#archive,
+#category,
+#tag{
     direction: rtl;
 }
 
